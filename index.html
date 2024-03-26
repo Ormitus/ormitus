@@ -1,58 +1,60 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>תיק עבודות</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>תיק עבודות</h1>
-        <nav>
-            <a href="#about">אודות</a>
-            <a href="#projects">פרויקטים</a>
-            <a href="#contact">יצירת קשר</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>אודות</h2>
-            <p>
-                הציגו את עצמכם, את הכישורים שלכם ואת הניסיון שלכם.
-            </p>
-        </section>
-        <section id="projects">
-            <h2>פרויקטים</h2>
+    <div class="container">
+        <div class="header">
+            <h1>Portfolio</h1>
             <ul>
-                <li>
-                    <h3>פרויקט 1</h3>
-                    <p>
-                        תיאור קצר של הפרויקט.
-                    </p>
-                    <a href="#">קישור לפרויקט</a>
-                </li>
-                <li>
-                    <h3>פרויקט 2</h3>
-                    <p>
-                        תיאור קצר של הפרויקט.
-                    </p>
-                    <a href="#">קישור לפרויקט</a>
-                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-        <section id="contact">
-            <h2>יצירת קשר</h2>
-            <form action="#">
-                <input type="text" name="name" placeholder="שם">
-                <input type="email" name="email" placeholder="דוא"ל">
-                <textarea name="message" placeholder="הודעה"></textarea>
-                <button type="submit">שליחה</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 - שם פרטי ושם משפחה</p>
-    </footer>
+        </div>
+        <div class="main">
+            <div id="about">
+                <h2>About</h2>
+                <p>
+                    Introduce yourself, your skills, and your experience.
+                </p>
+            </div>
+            <div id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <h3>Project 1</h3>
+                        <p>
+                            Short description of the project.
+                        </p>
+                        <a href="#">Link to project</a>
+                    </li>
+                    <li>
+                        <h3>Project 2</h3>
+                        <p>
+                            Short description of the project.
+                        </p>
+                        <a href="#">Link to project</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="contact">
+                <h2>Contact</h2>
+                <form action="#">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 - Your Name</p>
+        </div>
+    </div>
 </body>
 </html>
