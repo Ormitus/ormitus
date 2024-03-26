@@ -1,40 +1,58 @@
-<html>
-    <head>
-        <title>Ori's "Ormitus" Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="windowsThemeNav">
-            <img src="images/Window Title.svg"
-        </div>
-        <div id="about">
-            <div id="headshot"><img src="images/pixelmitus 1.svg"></div>
-            <div id="aboutText">
-                <p>Allow me to introduce myself.<br>my name is Ori and I am a graphic designer based in Tel Aviv, currently studying visual communication at Shenkar College. Throughout my journey, I have honed my skills and developed a diverse portfolio of work.</p>
-                <p>As a graphic designer, I strive to blend creativity and functionality, crafting visually captivating designs that effectively communicate messages. I am passionate about exploring different design styles and techniques, constantly seeking inspiration from various sources to infuse my work with fresh and innovative ideas. </p>
-                <p>My portfolio showcases a wide range of projects that demonstrate my versatility as a designer. From logo designs and branding campaigns to illustrations and digital artwork, I have immersed myself in various aspects of visual communication. I believe that every project presents an opportunity to create something unique and impactful.</p>
-                <p>I approach each task with meticulous attention to detail, ensuring that every element aligns harmoniously to convey the intended message. I also enjoy collaborating with clients and colleagues, as I believe that teamwork fosters the development of richer and more meaningful design solutions. </p>
-                <p>Beyond my technical skills, I am always eager to learn and stay up-to-date with the latest industry trends. I am constantly exploring new software, attending workshops, and engaging with the design community to expand my knowledge and refine my craft.</p>     
-            </div>
-        </div>
-        <div id="designs">
-            <div class="design">
-                <img src="images/Rafael1.svg">
-            </div>
-            <div class="design">
-                <img src="images/Hashmal1.svg">
-            </div>
-            <div class="design">
-                <img src="images/Maccabi1.svg">
-            </div>
-             <div class="design">
-                <img src="images/Hashmal1.svg">
-        </div>
-        <div id="font">
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תיק עבודות</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>תיק עבודות</h1>
+        <nav>
+            <a href="#about">אודות</a>
+            <a href="#projects">פרויקטים</a>
+            <a href="#contact">יצירת קשר</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>אודות</h2>
             <p>
-                The Shlompy font is a unique Hebrew font with slightly rounded design. Its curved lines and angles give it a refreshing and liberating appearance, making it uniquely suitable for informal and stunning Hebrew illustration and design.
+                הציגו את עצמכם, את הכישורים שלכם ואת הניסיון שלכם.
             </p>
-            <div id="Shlumpy">אבגדהוזחטיכךלמםנןסעפףצץקרשת<br/>0 1 2 3 4 5 6 7 8 9 ? ! # $ % ^ * ) ( : . , ״ / | </div>
-        </div>
-    </body>
+        </section>
+        <section id="projects">
+            <h2>פרויקטים</h2>
+            <ul>
+                <li>
+                    <h3>פרויקט 1</h3>
+                    <p>
+                        תיאור קצר של הפרויקט.
+                    </p>
+                    <a href="#">קישור לפרויקט</a>
+                </li>
+                <li>
+                    <h3>פרויקט 2</h3>
+                    <p>
+                        תיאור קצר של הפרויקט.
+                    </p>
+                    <a href="#">קישור לפרויקט</a>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>יצירת קשר</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="שם">
+                <input type="email" name="email" placeholder="דוא"ל">
+                <textarea name="message" placeholder="הודעה"></textarea>
+                <button type="submit">שליחה</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - שם פרטי ושם משפחה</p>
+    </footer>
+</body>
 </html>
